@@ -1,0 +1,40 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.controls {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.controls input {
+  margin-right: 50px;
+}
+
+.controls label {
+  margin-right: 20px;
+}
+
+.controls button {
+  margin-left: 20px;
+}
+
+.playground {
+  width: 100%;
+  outline: 1px solid black;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.disapear {
+  opacity: 0;
+}
+/*# sourceMappingURL=styles.css.map */

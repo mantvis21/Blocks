@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.controls {
+    width: 100%;
+    // outline: 1px solid black;
+    display: flex;
+    margin-top: 20px;
+    input {
+        margin-right: 50px;
+    }
+    label {
+        margin-right: 20px;
+    }
+    button {
+        margin-left: 20px;
+    }
+}
+
+.playground {
+    width: 100%;
+    outline: 1px solid black;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.disapear {
+    opacity: 0;
+}
